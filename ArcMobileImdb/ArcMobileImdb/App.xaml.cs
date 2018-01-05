@@ -13,7 +13,7 @@ namespace ArcMobileImdb
         {
             InitializeComponent();
 
-            MainPage = new ArcMobileImdb.MainPage();
+            MainPage = new NavigationPage(new ArcMobileImdb.MainPage());
         }
 
         protected override void OnStart()
