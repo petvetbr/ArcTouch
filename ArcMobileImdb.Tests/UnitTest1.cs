@@ -11,7 +11,7 @@ namespace ArcMobileImdb.Tests
     public class UnitTest1
     {
         [TestMethod]
-        public async Task TestMethod1()
+        public void TestMethod1()
         {
 
             MovieDbFactory.RegisterSettings(Constants.API_KEY);
